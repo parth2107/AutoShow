@@ -55,5 +55,10 @@ export interface CustomFilterProps {
 }
 
 export interface HomeProps {
-    searchParams: FilterProps
+    searchParams: FilterProps;
+}
+
+export interface ShowMoreProps {
+    pageNumber: number;
+    isNext: boolean;
 }
