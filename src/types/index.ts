@@ -35,3 +35,11 @@ export interface CarDetailsProps {
     isOpen: boolean;
     closeModel: () => void;
 }
+
+export interface FilterProps {
+    manufacturer?: string;
+    model?: string;
+    year?: number;
+    limit?: number;
+    fuel?: string;
+}
